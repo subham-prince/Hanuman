@@ -23,9 +23,7 @@ BG_MAGENTA=$(tput setab 5)
 
 
 clear
-echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
-echo "${BG_BLUE}${BOLD}${WHITE}   MANAVYUG AI       ${RESET}"
-echo "${BG_BLUE}${BOLD}${WHITE}==================================================${RESET}"
+
 echo ""
 echo "${CYAN}${BOLD}⚡MEOW{RESET}"
 
@@ -34,7 +32,7 @@ echo ""
 # ======================
 #  DATABASE OPERATIONS
 # ======================
-echo "${MAGENTA}${BOLD}💼 STEP 1: Setting Up Portfolios...${RESET}"
+echo "${MAGENTA}${BOLD}STEP 1: Setting Up Portfolios...${RESET}"
 declare -A PORTFOLIOS=(
     [1]="Banking,Bnkg,All Banking Business"
     [2]="Asset Growth,AsstGrwth,All Asset Focused Products"
@@ -54,7 +52,7 @@ echo ""
 # ======================
 #  CATEGORY SETUP
 # ======================
-echo "${MAGENTA}${BOLD}🗂️ STEP 2: Creating Product Categories...${RESET}"
+echo "${MAGENTA}${BOLD}STEP 2: Creating Product Categories...${RESET}"
 declare -A CATEGORIES=(
     [1]="1,Cash"
     [2]="2,Investments - Short Return"
@@ -101,10 +99,10 @@ echo ""
 # ======================
 #  PYTHON HELPER SCRIPTS
 # ======================
-echo "${MAGENTA}${BOLD}🐍 STEP 4: Running Python Helper Scripts...${RESET}"
+echo "${MAGENTA}${BOLD} STEP 4: Running Python Helper Scripts...${RESET}"
 echo "${WHITE}Setting up Python environment...${RESET}"
 mkdir -p python-helper && cd python-helper || {
-    echo "${RED}${BOLD}❌ Failed to create python-helper directory${RESET}"
+    echo "${RED}${BOLD} Failed to create python-helper directory${RESET}"
     exit 1
 }
 
@@ -134,13 +132,8 @@ echo ""
 # ======================
 #  COMPLETION MESSAGE
 # ======================
-echo "${BG_GREEN}${BLACK}${BOLD}==================================================${RESET}"
-echo "${BG_GREEN}${BLACK}${BOLD}   LAB COMPLETE!   ${RESET}"
-echo "${BG_GREEN}${BLACK}${BOLD}==================================================${RESET}"
+
 echo ""
-echo "${WHITE}${BOLD}🔍 Access your Cloud Spanner database at:${RESET}"
+echo "${WHITE}${BOLD} Access your Cloud Spanner database at:${RESET}"
 echo "${BLUE}https://console.cloud.google.com/spanner/instances/banking-ops-instance/databases/banking-ops-db${RESET}"
 echo ""
-echo "${CYAN}${BOLD}💡 For more Google Cloud labs and tutorials:${RESET}"
-
-echo "${GREEN}${BOLD}🔔 Don't forget to subscribe for daily cloud tutorials!${RESET}"

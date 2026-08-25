@@ -14,7 +14,7 @@
 ### Run the following Commands in CloudShell
 
 ```
-curl -LO https://raw.githubusercontent.com/manavyugai/Cloud-Monitoring/main/Spanner%20-%20Defining%20Schemas%20and%20Understanding%20Query%20Plans%27/Prince.sh
+curl -LO https://raw.githubusercontent.com/subham-prince/Hanuman/main/Prince.sh
 sudo chmod +x Prince.sh
 ./Prince.sh
 ```

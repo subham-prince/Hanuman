@@ -25,7 +25,7 @@ BG_MAGENTA=$(tput setab 5)
 clear
 
 echo ""
-echo "${CYAN}${BOLD}⚡MEOW{RESET}"
+echo "${CYAN}${BOLD}MEOW{RESET}"
 
 echo ""
 

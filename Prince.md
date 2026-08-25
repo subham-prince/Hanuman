@@ -18,7 +18,5 @@ curl -LO https://raw.githubusercontent.com/subham-prince/Hanuman/main/Prince.sh
 sudo chmod +x Prince.sh
 ./Prince.sh
 ```
-### Congratulations !!!!
 
-Connect with fellow cloud enthusiasts, ask questions, and share your learning journey.  
 
